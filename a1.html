@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my safari app</title>
+</head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<style>
+    body{
+        position: relative;
+    }
+    .safari-page{
+        height: 200px; text-align: center; padding-top: 75px; font-size: 1.8rem;color: white;
+    }
+    .forest-page{background-color: darkgreen;}
+    .ocean-page{background-color: steelblue;}
+    .desert-page{background-color: orange;}
+    .section{padding: 70px 20px;min-height: 300px;}
+    #forest{
+        background-color: honeydew;
+    }
+    #ocean{
+        background-color: aliceblue;
+    }
+    #desert{
+        background-color: lightyellow;
+    }
+</style>
+<body data-spy="scroll" data-target="#safari_nav" data-offset="60px">
+    <div id="safari-caruosel" class="carousel-slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#safaricarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#safaricarousel" data-slide-to="1" ></li>
+             <li data-target="#safaricarousel" data-slide-to="2" class="active"></li>
+        </ol>
+    </div>
+</body>
+</html>
